@@ -80,7 +80,7 @@ class _UsersPageState extends State<UsersPage> {
                   children: [
                     // Kiri: Foto, Username, Password
                     Flexible(
-                      flex: 1,
+                      flex: 2,
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
@@ -110,7 +110,7 @@ class _UsersPageState extends State<UsersPage> {
                     // Kanan: Hak Akses
                     
                     Flexible(
-                      flex: 1,
+                      flex: 3,
                       child: SizedBox(
                         width: 250,
                         height: 200,
@@ -209,7 +209,7 @@ class _UsersPageState extends State<UsersPage> {
                   children: [
                     // Kiri: Foto, Username, Password
                     Flexible(
-                      flex: 1,
+                      flex: 2,
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
@@ -239,7 +239,7 @@ class _UsersPageState extends State<UsersPage> {
                     // Kanan: Hak Akses
                     
                     Flexible(
-                      flex: 1,
+                      flex: 3,
                       child: SizedBox(
                         width: 250,
                         height: 200,
