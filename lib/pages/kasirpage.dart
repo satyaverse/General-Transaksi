@@ -562,7 +562,7 @@ class _KasirState extends State<Kasir> {
       padding: const EdgeInsets.all(8),
       gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
         maxCrossAxisExtent: 200,
-        childAspectRatio: 0.7,
+        childAspectRatio: 0.8,
         crossAxisSpacing: 8,
         mainAxisSpacing: 8,
       ),
