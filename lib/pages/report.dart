@@ -4,6 +4,7 @@ import 'package:fl_chart/fl_chart.dart';
 import '../db.dart';
 import '../drawer.dart';
 import 'package:intl/intl.dart';
+import 'tabel.dart';
 
 class ReportPage extends StatefulWidget {
   const ReportPage({super.key});
@@ -949,7 +950,7 @@ borderData: FlBorderData(
                         Align(
                           alignment: Alignment.center,
                           child: SizedBox(
-                            width: 200, // total lebar row
+                            width: 300, // total lebar row
                             child: Row(
                               children: [
                                 Expanded(
@@ -965,6 +966,24 @@ borderData: FlBorderData(
                                     icon: const Icon(Icons.favorite, color: Colors.red), 
                                     label: const Text(
                                       "Populer",
+                                      style: TextStyle(color: Colors.brown),
+                                    ),            
+                                  ),
+                                ),
+                                const SizedBox(width: 10),
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => const LaporanPage(),
+                                        ),
+                                      );
+                                    },
+                                    icon: const Icon(Icons.table_chart, color: Colors.green), 
+                                    label: const Text(
+                                      "Data",
                                       style: TextStyle(color: Colors.brown),
                                     ),            
                                   ),
@@ -1034,7 +1053,7 @@ borderData: FlBorderData(
                         Align(
                           alignment: Alignment.center,
                           child: SizedBox(
-                            width: 200, // total lebar row
+                            width: 300, // total lebar row
                             child: Row(
                               children: [
                                 Expanded(
@@ -1054,7 +1073,23 @@ borderData: FlBorderData(
                                     ),            
                                   ),
                                 ),
-                                
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => const LaporanPage(),
+                                        ),
+                                      );
+                                    },
+                                    icon: const Icon(Icons.table_chart, color: Colors.green), 
+                                    label: const Text(
+                                      "Data",
+                                      style: TextStyle(color: Colors.brown),
+                                    ),            
+                                  ),
+                                ),
                                 
                               ],
                             ),
@@ -1116,7 +1151,7 @@ borderData: FlBorderData(
                         Align(
                           alignment: Alignment.center,
                           child: SizedBox(
-                            width: 200, // total lebar row
+                            width: 300, // total lebar row
                             child: Row(
                               children: [
                                 Expanded(
@@ -1136,7 +1171,23 @@ borderData: FlBorderData(
                                     ),            
                                   ),
                                 ),
-                                
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => const LaporanPage(),
+                                        ),
+                                      );
+                                    },
+                                    icon: const Icon(Icons.table_chart, color: Colors.green), 
+                                    label: const Text(
+                                      "Data",
+                                      style: TextStyle(color: Colors.brown),
+                                    ),            
+                                  ),
+                                ),
                                 
                               ],
                             ),
@@ -1198,7 +1249,7 @@ borderData: FlBorderData(
                         Align(
                           alignment: Alignment.center,
                           child: SizedBox(
-                            width: 200, // total lebar row
+                            width: 300, // total lebar row
                             child: Row(
                               children: [
                                 Expanded(
@@ -1218,7 +1269,23 @@ borderData: FlBorderData(
                                     ),            
                                   ),
                                 ),
-                                
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) => const LaporanPage(),
+                                        ),
+                                      );
+                                    },
+                                    icon: const Icon(Icons.table_chart, color: Colors.green), 
+                                    label: const Text(
+                                      "Data",
+                                      style: TextStyle(color: Colors.brown),
+                                    ),            
+                                  ),
+                                ),
                                 
                               ],
                             ),
